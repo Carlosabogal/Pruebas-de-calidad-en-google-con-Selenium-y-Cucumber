@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Google Search functionality" tests="3" skipped="0" failures="3" errors="0" timestamp="2022-07-11T20:11:00" hostname="DESKTOP-5GQOG64" time="17.949">
+  <properties/>
+  <testcase name="As a user I enter a search criteria in google" classname="Test Google Search functionality" time="7.08">
+    <failure message="java.lang.AssertionError: The of() method is not supported for By-type Targets" type="java.lang.AssertionError">java.lang.AssertionError: The of() method is not supported for By-type Targets
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:300)
+	at co.com.certificacion.google.stepdefinitions.GoogleStepDefinitions.shouldCheckTheInfoElements(GoogleStepDefinitions.java:62)
+	at ✽.should check the info Publicidad(src/test/resources/features/google.feature:5)
+</failure>
+  </testcase>
+  <testcase name="As a user I enter a search criteria in google" classname="Test Google Search functionality" time="5.444">
+    <failure message="java.lang.AssertionError: The of() method is not supported for By-type Targets" type="java.lang.AssertionError">java.lang.AssertionError: The of() method is not supported for By-type Targets
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:300)
+	at co.com.certificacion.google.stepdefinitions.GoogleStepDefinitions.shouldCheckTheInfoElements(GoogleStepDefinitions.java:62)
+	at ✽.should check the info Negocios(src/test/resources/features/google.feature:5)
+</failure>
+  </testcase>
+  <testcase name="As a user I enter a search criteria in google" classname="Test Google Search functionality" time="5.422">
+    <failure message="java.lang.AssertionError: The of() method is not supported for By-type Targets" type="java.lang.AssertionError">java.lang.AssertionError: The of() method is not supported for By-type Targets
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:300)
+	at co.com.certificacion.google.stepdefinitions.GoogleStepDefinitions.shouldCheckTheInfoElements(GoogleStepDefinitions.java:62)
+	at ✽.should check the info Cómo funciona la Búsqueda(src/test/resources/features/google.feature:5)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[jul 11, 2022 3:11:00 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, --incognito, goog:chromeOptions: {args: [--start-maximized, --incognito, --enable-automation, --test-type], extensions: []}, platform: ANY, version: }
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 41668
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 11, 2022 3:11:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: As a user I enter a search criteria in google
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then validate categories should be 'Publicidad'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - The of() method is not supported for By-type Targets
+jul 11, 2022 3:11:07 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, --incognito, goog:chromeOptions: {args: [--start-maximized, --incognito, --enable-automation, --test-type], extensions: []}, platform: ANY, version: }
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 46356
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 11, 2022 3:11:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+jul 11, 2022 3:11:12 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, --incognito, goog:chromeOptions: {args: [--start-maximized, --incognito, --enable-automation, --test-type], extensions: []}, platform: ANY, version: }
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 41482
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jul 11, 2022 3:11:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: As a user I enter a search criteria in google
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then validate categories should be 'Cómo funciona la Búsqueda'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - The of() method is not supported for By-type Targets
+]]></system-err>
+</testsuite>
